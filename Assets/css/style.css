@@ -17,6 +17,12 @@ a{
         padding: 0 15px;
         text-decoration: inherit;
         color: inherit;
+
+}
+
+a:hover{
+
+    color: blue;
 }
 #leftheader{
     float: left;
@@ -136,11 +142,14 @@ display: flex;
 flex-wrap: wrap;
 
 
+
 }
 #aboutMesection{
-    max-width: 560px;
+    max-width: 570px;
     border-width: 4px;
-    border-color: #84a0bb;
+    border-color: #366999;
+    grid-column: 2 / 3;
+    grid-row: 1;
     
 }
 
@@ -149,7 +158,7 @@ flex-wrap: wrap;
     line-height: 150%;
     font-size:18px;
     float: right;
-    max-width: 1fr;
+    max-width: 570px;
     text-align:initial;
     margin: auto;
     border-color: #84a0bb;
@@ -168,7 +177,7 @@ flex-wrap: wrap;
 }
 
 #me{
-    max-width: 560px;
+    max-width: 570px;
     justify-content: center;
     border-width: 4px;
     border-color: #84a0bb;
@@ -184,7 +193,7 @@ flex-wrap: wrap;
     background-color: #84a0bb;
     border-radius: 5px;
     justify-content: center;
-    /* display: flex; */
+    display: flex; 
     flex-direction: row;
     grid-column: 1;
     grid-row: 2 / 4;
@@ -206,8 +215,8 @@ section #asiderow3ContactMe .contactLinks{
 
 
 #asiderow3ContactMe{
-    /* display: flex; */
-    /* flex-direction: row; */
+    display: flex; 
+    flex-direction: row;
     grid-column: 2 /3;
     grid-row: 4 / 4;
     width:400px;
@@ -215,7 +224,7 @@ section #asiderow3ContactMe .contactLinks{
 }
 
 #asiderow3{
-    /* display: flex; */
+    display: flex; 
     background-color: #84a0bb;
     border-radius: 5px;
     flex-direction: row;
@@ -228,8 +237,8 @@ section #asiderow3ContactMe .contactLinks{
 
 
 #mainPrjPictureRow1{
-    /* display: flex;
-    flex-direction: row; */
+    display: flex;
+    flex-direction: row; 
     grid-column: 2;
     grid-row: 2;
     width:10em;
@@ -257,7 +266,7 @@ section #asiderow3ContactMe .contactLinks{
 #bigPic{
     display: flex;
     flex-direction: row;
-    max-width: 1400px;
+    max-width: 1500px;
     height: 100%;
     object-fit: cover;
    
