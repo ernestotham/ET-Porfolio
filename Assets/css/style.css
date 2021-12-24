@@ -12,6 +12,14 @@ header{
 
 
 }
+
+.mainPrjPictureRow1{
+
+    padding: 5px;
+    margin: auto;
+
+}
+
 a{
 
         padding: 0 15px;
@@ -213,15 +221,27 @@ section #asiderow3ContactMe .contactLinks{
 
 }
 
+#row3{
+    display: flex; 
+    flex-direction: row;
+    grid-column: 3;
+    grid-row: 4 / 4;
+    width:400px;
+    justify-content: center;
+    margin-left: -150px;
 
-#asiderow3ContactMe{
+
+}
+
+/* #asiderow3ContactMe{
     display: flex; 
     flex-direction: row;
     grid-column: 2 /3;
     grid-row: 4 / 4;
     width:400px;
+    justify-content: center;
     
-}
+} */
 
 #asiderow3{
     display: flex; 
@@ -283,12 +303,19 @@ section #asiderow3ContactMe .contactLinks{
 
 }
 
+img{
+    max-width: 100%;
+    height: auto;
+
+}
+
 #smallPic{
     display: flex;
     flex-direction: row;
     max-width: 690px;
     height: 80%;
     object-fit: cover;
+   
     
     
 
@@ -305,7 +332,3 @@ section #asiderow3ContactMe .contactLinks{
     height: 30px;
 }
 
-.contactLinks{
-    justify-content: center;
-
-}
