@@ -4,5 +4,6 @@ My portfolio - This is a list of projects that i have been working on!!!
 
 > **Here is the link: https://ernestotham.github.io/ET-Porfolio/
 
-<img src='https://user-images.githubusercontent.com/23125242/146104641-5f001c98-8d00-4af1-ac79-cd4f4c9d91db.jpg'>
+<img src='https://user-images.githubusercontent.com/23125242/147331120-f9deffc8-310e-4dad-9558-13f81277461b.jpg'>
+
 
