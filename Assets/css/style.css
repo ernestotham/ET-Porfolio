@@ -39,6 +39,19 @@ img{
 
 }
 
+#gmail{
+    max-width: 20%;
+    max-height: 20%;
+
+}
+#github{
+    max-width: 20%;
+    max-height: 20%;
+
+}
+
+
+
 .contactmeIcon{
     margin: 20px;
 
@@ -68,3 +81,25 @@ a:hover{
     font-size: larger;
 
 }
+
+
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #1d1b3d;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #0352fc, #2e4169, #37609e, #36a8dd );
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #0352fc, #2e4169, #37609e, #36a8dd);
+  }
+  .gradient-custom-1 {
+    /* fallback for old browsers */
+    background: #1d1b3d;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #1d1b3d);
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #1d1b3d);
+  }
